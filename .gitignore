@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Pipeline outputs
+output/
+outputs/
+deliverables/
+*.zip
+
+# Large geospatial / simulation data
+*.tif
+*.tiff
+*.laz
+*.las
+*.hdf
+*.h5
+*.sww
+*.gpkg
+
+# HEC-RAS runtime files
+*.bco*
+*.p01.tmp*
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

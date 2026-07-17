@@ -1,0 +1,63 @@
+{
+  "_comment": "Synthetic sample configuration. All names, coordinates, and site facts are fictional and for demonstration only — this is not a real community or client site.",
+
+  "community_name": "Sample Lakeside Community",
+  "client_folder": "C:/path/to/projects/sample-site",
+  "pix4d_output": "C:/path/to/projects/sample-site/pix4d-exports",
+  "output_folder": "C:/path/to/projects/sample-site/analysis",
+
+  "location": {
+    "state": "Texas",
+    "county": "Example County",
+    "description": "Residential subdivision adjacent to a reservoir",
+    "lake": "Sample Lake",
+    "conservation_pool_ft": 320.00,
+    "conservation_pool_datum": "NGVD29",
+    "noaa_atlas_volume": "Volume 11 (Texas)"
+  },
+
+  "validation": {
+    "target_gsd_cm": 3.0,
+    "min_coverage_percent": 95.0
+  },
+
+  "hydrology": {
+    "analysis_resolution_m": 0.25,
+    "flow_accumulation_thresholds": [1000, 5000, 10000],
+    "depression_min_depth_m": 0.08,
+    "depression_max_depth_m": 2.0,
+    "depression_min_area_sqm": 15,
+    "flat_area_slope_threshold": 0.005,
+    "flat_area_min_sqm": 15,
+    "chokepoint_accumulation_ratio": 10.0,
+    "storm_return_periods": [2, 10, 25, 100]
+  },
+
+  "soil": {
+    "hydrologic_group": "D",
+    "curve_number": 85,
+    "notes": "Clay-dominant soils, poor infiltration. Verify with SSURGO for the study county."
+  },
+
+  "known_issues": [
+    "Recurring street ponding reported near the main entrance during frequent (2-year) storm events",
+    "Road crown issues directing flow toward structures in the low-lying blocks"
+  ],
+
+  "grant_context": {
+    "target_program": "TWDB FIF",
+    "eligible_activities": ["drainage assessment", "flood mitigation planning"],
+    "max_grant_amount": 500000,
+    "match_requirement": "50%"
+  },
+
+  "dsm": {
+    "_comment": "Round-number placeholder values in UTM zone 14N (central Texas). Replace with the actual Pix4D DSM properties for your site.",
+    "file": "sample-site-dsm.tiff",
+    "crs": "EPSG:32614",
+    "pixel_size_m": 0.02,
+    "dimensions": [30000, 30000],
+    "elevation_range_m": [10.0, 100.0],
+    "valid_percent": 60.0
+  }
+}
