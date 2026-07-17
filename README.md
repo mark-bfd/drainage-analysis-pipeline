@@ -2,7 +2,7 @@
 
 **Part 6 of a 6-part build-sequence series — full-pipeline engineering: geospatial + simulation + automated reporting.**
 
-An end-to-end automated pipeline that turns drone photogrammetry output into a client-ready drainage assessment: validated terrain → hydrological analysis → 2D storm simulation → maps and a narrative report. Analysis that traditionally takes a GIS analyst and an H&H modeler weeks of manual tool-driving runs same-day, with identical repeatable methodology every time.
+An end-to-end automated pipeline that turns drone photogrammetry output into a client-ready drainage assessment: validated terrain → hydrological analysis → 2D storm simulation → maps and a narrative report. **Impact:** what took a dedicated engineer two weeks of manual tool-driving runs in two days of monitored processing, with identical repeatable methodology every time.
 
 ## What it does
 
