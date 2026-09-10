@@ -1,6 +1,6 @@
 # Drone Drainage Analysis Pipeline
 
-**Part 6 of a 6-part build-sequence series — full-pipeline engineering: geospatial + simulation + automated reporting.**
+**Part 5 of a 5-part build-sequence series — full-pipeline engineering: geospatial + simulation + automated reporting.**
 
 An end-to-end automated pipeline that turns drone photogrammetry output into a client-ready drainage assessment: validated terrain → hydrological analysis → 2D storm simulation → maps and a narrative report. **Impact:** what took a dedicated engineer two weeks of manual tool-driving runs in two days of monitored processing, with identical repeatable methodology every time.
 
@@ -75,7 +75,7 @@ Status caveat, honestly stated: the HDF5 mesh data verifies structurally against
 
 ## Series context
 
-This is the capstone of a 6-part build sequence. Parts 1–5 covered the component skills; this repo is where they compose: drone data handling, GIS automation, numerical simulation, format reverse-engineering, and automated document generation in one continuous, hands-off pipeline.
+This is the capstone of a 5-part build sequence. Parts 1–4 covered the component skills; this repo is where they compose: drone data handling, GIS automation, numerical simulation, format reverse-engineering, and automated document generation in one continuous, hands-off pipeline.
 
 ## License
 
